@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< my.test:aws-code-guru >------------------------
+[INFO] Building aws-code-guru 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ aws-code-guru ---
+[INFO] my.test:aws-code-guru:jar:1.0
+[INFO] \- com.amazonaws:codeguru-profiler-java-agent:jar:0.1.0:compile
+[INFO]    +- software.amazon.awssdk:codeguruprofiler:jar:2.10.28:runtime
+[INFO]    |  +- software.amazon.awssdk:protocol-core:jar:2.10.28:runtime
+[INFO]    |  +- software.amazon.awssdk:aws-json-protocol:jar:2.10.28:runtime
+[INFO]    |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.10.0:runtime
+[INFO]    |  +- software.amazon.awssdk:sdk-core:jar:2.10.28:runtime
+[INFO]    |  |  +- software.amazon.awssdk:profiles:jar:2.10.28:runtime
+[INFO]    |  |  +- org.slf4j:slf4j-api:jar:1.7.28:runtime
+[INFO]    |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.10.0:runtime
+[INFO]    |  |  \- org.reactivestreams:reactive-streams:jar:1.0.2:runtime
+[INFO]    |  +- software.amazon.awssdk:auth:jar:2.10.28:runtime
+[INFO]    |  |  \- software.amazon.eventstream:eventstream:jar:1.0.1:runtime
+[INFO]    |  +- software.amazon.awssdk:http-client-spi:jar:2.10.28:runtime
+[INFO]    |  +- software.amazon.awssdk:regions:jar:2.10.28:runtime
+[INFO]    |  |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:runtime
+[INFO]    |  +- software.amazon.awssdk:annotations:jar:2.10.28:runtime
+[INFO]    |  +- software.amazon.awssdk:utils:jar:2.10.28:runtime
+[INFO]    |  +- software.amazon.awssdk:aws-core:jar:2.10.28:runtime
+[INFO]    |  +- software.amazon.awssdk:apache-client:jar:2.10.28:runtime
+[INFO]    |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.9:runtime
+[INFO]    |  |  |  +- commons-logging:commons-logging:jar:1.2:runtime
+[INFO]    |  |  |  \- commons-codec:commons-codec:jar:1.11:runtime
+[INFO]    |  |  \- org.apache.httpcomponents:httpcore:jar:4.4.11:runtime
+[INFO]    |  \- software.amazon.awssdk:netty-nio-client:jar:2.10.28:runtime
+[INFO]    |     +- io.netty:netty-codec-http:jar:4.1.42.Final:runtime
+[INFO]    |     +- io.netty:netty-codec-http2:jar:4.1.42.Final:runtime
+[INFO]    |     +- io.netty:netty-codec:jar:4.1.42.Final:runtime
+[INFO]    |     +- io.netty:netty-transport:jar:4.1.42.Final:runtime
+[INFO]    |     |  \- io.netty:netty-resolver:jar:4.1.42.Final:runtime
+[INFO]    |     +- io.netty:netty-common:jar:4.1.42.Final:runtime
+[INFO]    |     +- io.netty:netty-buffer:jar:4.1.42.Final:runtime
+[INFO]    |     +- io.netty:netty-handler:jar:4.1.42.Final:runtime
+[INFO]    |     +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.42.Final:runtime
+[INFO]    |     |  \- io.netty:netty-transport-native-unix-common:jar:4.1.42.Final:runtime
+[INFO]    |     \- com.typesafe.netty:netty-reactive-streams-http:jar:2.0.3:runtime
+[INFO]    |        \- com.typesafe.netty:netty-reactive-streams:jar:2.0.3:runtime
+[INFO]    \- com.amazon.ion:ion-java:jar:1.5.1:runtime
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.799 s
+[INFO] Finished at: 2019-12-10T07:14:23+11:00
+[INFO] ------------------------------------------------------------------------
